@@ -183,14 +183,6 @@ class Carga {
         this.prioridade = (this.urgencia * 10) + (this.peso * 2) + (this.tipo * 5);
     }
 
-    /**
-     * Comparador: retorna >0 se this tem maior "ordem" (deve vir acima) que outro.
-     * Critérios:
-     * 1) prioridade (maior melhor)
-     * 2) urgencia (maior melhor)
-     * 3) peso (maior melhor)
-     * 4) id (menor id tem precedência => considera-se maior)
-     */
     public int comparar(Carga outro) {
         if (this.prioridade != outro.prioridade) return Integer.compare(this.prioridade, outro.prioridade);
         if (this.urgencia != outro.urgencia) return Integer.compare(this.urgencia, outro.urgencia);
@@ -210,12 +202,8 @@ class Carga {
                 ", peso=" + peso + ", prioridade=" + prioridade + ", desc=" + descricao + "}";
     }
 }
-
-/**
- * HeapMaxima: implementação manual de heap (máximo), vetor 1-indexado.
- */
 class HeapMaxima {
-    private Carga[] heap; // 1-indexed: ignoramos posição 0
+    private Carga[] heap; 
     private int quantidade;
     private int capacidade;
 
@@ -300,10 +288,7 @@ class HeapMaxima {
         }
     }
 
-    /**
-     * Copia o heap (deep-ish): cria novo HeapMaxima com cópia das referências Carga.
-     * Útil para operações que consomem o heap sem destruir o original (ex.: exibir ordenado).
-     */
+    
     public HeapMaxima copiar() {
         HeapMaxima h = new HeapMaxima(Math.max(this.capacidade, 2));
         h.quantidade = this.quantidade;
