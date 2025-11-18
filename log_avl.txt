@@ -1,0 +1,27 @@
+Iniciando simulação de controle de estoque AVL...
+Inserindo produto 5001 - Processador Ryzen 5
+Inserindo produto 5020 - Placa de Vídeo RTX 4060
+Inserindo produto 5055 - Memória RAM 16GB
+Inserindo produto 5100 - SSD NVMe 1TB
+Inserindo produto 5005 - Monitor Gamer 144Hz
+Total de produtos na árvore após catálogo: 5
+Consumo parcial: Produto 5001 (Processador Ryzen 5), restam 8 unidades.
+AVL atualmente com 5 produtos.
+Consumo parcial: Produto 5055 (Memória RAM 16GB), restam 20 unidades.
+AVL atualmente com 5 produtos.
+Produto 5020 removido - estoque esgotado.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 6 unidades.
+AVL atualmente com 4 produtos.
+Produto 5099 fora de estoque.
+AVL atualmente com 4 produtos.
+
+--- Catálogo de Produtos Disponíveis (Em Ordem) ---
+Produto 5001 [Processador Ryzen 5] - Estoque: 8, Preço: R$950.0
+Produto 5005 [Monitor Gamer 144Hz] - Estoque: 6, Preço: R$1450.0
+Produto 5055 [Memória RAM 16GB] - Estoque: 20, Preço: R$250.0
+Produto 5100 [SSD NVMe 1TB] - Estoque: 12, Preço: R$400.0
+--------------------------------------------------
+
+Simulação encerrada.
+4 tipos de produtos restantes no estoque.
