@@ -1,0 +1,47 @@
+Iniciando simulação de controle de estoque AVL...
+Inserindo produto 5001 - Processador Ryzen 5
+Inserindo produto 5020 - Placa de Vídeo RTX 4060
+Inserindo produto 5055 - Memória RAM 16GB
+Inserindo produto 5100 - SSD NVMe 1TB
+Inserindo produto 5005 - Monitor Gamer 144Hz
+Total de produtos na árvore após catálogo: 5
+Consumo parcial: Produto 5055 (Memória RAM 16GB), restam 20 unidades.
+AVL atualmente com 5 produtos.
+Consumo parcial: Produto 5100 (SSD NVMe 1TB), restam 7 unidades.
+AVL atualmente com 5 produtos.
+Produto 5020 removido - estoque esgotado.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 6 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5001 (Processador Ryzen 5), restam 8 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5100 (SSD NVMe 1TB), restam 2 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5055 (Memória RAM 16GB), restam 10 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 5 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 4 unidades.
+AVL atualmente com 4 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 3 unidades.
+AVL atualmente com 4 produtos.
+Produto 5100 removido - estoque esgotado.
+AVL atualmente com 3 produtos.
+Produto 5055 removido - estoque esgotado.
+AVL atualmente com 2 produtos.
+Consumo parcial: Produto 5001 (Processador Ryzen 5), restam 6 unidades.
+AVL atualmente com 2 produtos.
+Consumo parcial: Produto 5001 (Processador Ryzen 5), restam 4 unidades.
+AVL atualmente com 2 produtos.
+Consumo parcial: Produto 5001 (Processador Ryzen 5), restam 2 unidades.
+AVL atualmente com 2 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 2 unidades.
+AVL atualmente com 2 produtos.
+Consumo parcial: Produto 5005 (Monitor Gamer 144Hz), restam 1 unidades.
+AVL atualmente com 2 produtos.
+Produto 5001 removido - estoque esgotado.
+AVL atualmente com 1 produtos.
+Produto 5005 removido - estoque esgotado.
+AVL atualmente com 0 produtos.
+
+Simulação encerrada: árvore AVL vazia. Todos os produtos foram consumidos.
